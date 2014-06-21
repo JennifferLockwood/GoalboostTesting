@@ -1,0 +1,15 @@
+buildscript {
+    repositories {
+        jcenter()
+         maven {
+     	 url  'http://dl.bintray.com/content/aalmiray/kordamp'
+    	}        
+    }
+    dependencies {
+        classpath 'org.kordamp:markdown-gradle-plugin:0.1'
+    }
+}
+apply plugin: 'markdown'
+
+markdownToHtml.sourceDir = file("doc/md")
+markdownToHtml.outputDir = file("doc/html")
