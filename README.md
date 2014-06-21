@@ -1,4 +1,8 @@
 GoalboostTesting
 ================
 
-Goalboost test plan and integration test
+Goalboost test plan and integration tests
+
+To build HTML from markdown:
+
+gradle markdownToHTML
