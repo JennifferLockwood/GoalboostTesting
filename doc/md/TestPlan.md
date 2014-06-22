@@ -1,9 +1,6 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>IEEE 829 - Standard for Test Documentation Overview</title>
-<body id="dummybodyid">
+<link rel="stylesheet" type="text/css" href="../testplan.css">
 
-<h1><a id="top"></a>TEST PLAN OUTLINE<br>
-(IEEE 829 Format)</h1>
+<h1><a id="top">TEST PLAN OUTLINE (IEEE 829 Format)</a></h1>
 
 1. <a href="#1">Test Plan Identifier</a><br>
 2. <a href="#2">References</a><br>
@@ -24,9 +21,11 @@
 17. <a href="#17">Planning Risks and Contingencies</a><br>
 18. <a href="#18">Approvals</a><br>
 19. <a href="#19">Glossary</a>
-<h1>IEEE TEST PLAN TEMPLATE</h1>
-<h2><a id="1"></a>Test Plan Identifier</h2>
 
+IEEE TEST PLAN TEMPLATE
+===
+<a id="1">Test Plan Identifier</a>
+---
 Some type of unique company generated number to identify this test plan, its 
 level and the level of software that it is related to. Preferably the test plan 
 level will be the same as the related software level. The number may also 
@@ -74,7 +73,22 @@ of the testing effort, how testing relates to other evaluation activities
 and communication and coordination of key activities.
 
 As this is the "Executive Summary" keep information brief and to the point.
-<h2><a id="4"></a>Test Items (Functions)</h2>
+<h2><a id="4"></a>Test Items</h2>
+
+<table>
+<tr><th colspan="2">Task and Timer User Interface</th</tr>
+<tr><th>Feature</th><th>Test Case</th></tr>
+<tr><td>User can create task</td><td><a href="tc_createTask.html">Test case</a></td></tr>
+<tr><td>User can view a task</td><td><a href="tc_createTask.html">Test case</a></td></tr>
+</table>
+
+<br />
+
+<table>
+<tr><th colspan="2">Security Features</th></tr>
+<tr><th>Feature</th><th>Test Case</th></tr>
+<tr><td>Tasks visible by default to owner and project members only</td><td></td></tr>
+</table>
 
 These are things you intend to test within the scope of this test plan. 
 Essentially, something you will test, a list of what is to be tested. This can 
@@ -428,4 +442,3 @@ Used to define terms and acronyms used in the document, and testing in
 general, to eliminate confusion and promote consistent communications.
 
 <a href="#top">top</a>
-</body></html>
