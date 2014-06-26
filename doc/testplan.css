@@ -1,0 +1,5 @@
+html { font-family: Arial, sans-serif; }
+table { border-collapse: collapse;}
+td, th { border:1px solid black; padding:3px; text-align:left;}
+th { background-color:#eee;}
+
