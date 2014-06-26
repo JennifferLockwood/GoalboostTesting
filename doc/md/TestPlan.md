@@ -80,6 +80,8 @@ As this is the "Executive Summary" keep information brief and to the point.
 <tr><th>Feature</th><th>Test Case</th></tr>
 <tr><td>User can create task</td><td><a href="tc_createTask.html">Test case</a></td></tr>
 <tr><td>User can view a task</td><td><a href="tc_createTask.html">Test case</a></td></tr>
+<tr><td>User can read a task</td><td><a href="tc_readTask.html">Test case</a></td></tr>
+<tr><td>User can delete a task</td><td><a href="tc_deleteTask.html">Test case</a></td></tr>
 </table>
 
 <br />
