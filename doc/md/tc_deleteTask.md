@@ -8,11 +8,11 @@ Steps
 
 * Sign in to Goalboost
 * Verify land on task page.
-* Verify (Assert?) task to be deleted
-* Verify (Assert?) Work on link for that task
-* Click Work on link
-* Verify land on Work on page
-* Verify (Assert?) Delete Task link
+* Verify (Assert?) Add new task button
+* Click add new task button
+* Enter Title, Description, and Issue Schedule / Status
+* Click submit.
+* Verify land on Start Timer page
 * Click Delete Task link
 * Pop up window confirmation
 * Verify Cancel and OK buttons
@@ -24,9 +24,9 @@ Expected Results
 ----------------
 
 * Should see the task page /tasks/<someId>
-* Should see task to be deleted
-* Should have Work on link
-* Should have Delete Task link in Work on page
+* Should have the right title, description, status
+* Should have a start timer button
+* If click Tasks link on top, should see title in the table of tasks.
 * Should pop up window confirmation
 * Should not see task deleted
 
