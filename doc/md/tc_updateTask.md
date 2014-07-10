@@ -14,7 +14,7 @@ Steps
 * Click submit.
 * Verify land on Start Timer Page
 * Click Edit Task Details
-* Edit Title, Descripcion, and/or Issue Schedule/Status
+* Edit Title, Description, and/or Issue Schedule/Status
 * Click Submit
 * Verify land on Start Timer Page
 * Verify task updated
