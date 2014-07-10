@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="../testplan.css">
 
-User can delete a task
+User can update a task
 ======================
 
 Steps
